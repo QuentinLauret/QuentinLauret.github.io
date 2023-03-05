@@ -1,0 +1,62 @@
+header.theme-dark .container-btn a.btn:nth-child(1):link,
+header.theme-dark .container-btn a.btn:nth-child(1):visited { color: var(--white-000) }
+
+header.theme-dark .container-btn a.btn:nth-child(1):link,
+header.theme-dark .container-btn a.btn:nth-child(1):visited { background-color: var(--sky-500) }
+
+header.theme-dark .container-btn a.btn:nth-child(1):focus,
+header.theme-dark .container-btn a.btn:nth-child(1):hover,
+header.theme-dark .container-btn a.btn:nth-child(1):active { border-color: var(--white-000) }
+
+header.theme-dark .container-btn a.btn:nth-child(1):focus,
+header.theme-dark .container-btn a.btn:nth-child(1):hover,
+header.theme-dark .container-btn a.btn:nth-child(1):active { background-color: var(--sky-600) }
+
+header.theme-dark h1 span.highlight { color: var(--sky-500) }
+header.theme-dark h1.heading-underline::after { background-color: var(--sky-500) }
+nav.theme-dark,
+nav.theme-dark ul.links-wrapper.active { background-color: var(--sky-500) }
+nav.theme-dark,
+nav.theme-dark ul.links-wrapper.active { background-color: var(--sky-500) }
+nav.theme-dark,
+nav.theme-dark ul.links-wrapper.active { background-color: var(--sky-500) }
+nav.theme-dark ul.links-wrapper li a:focus,
+nav.theme-dark ul.links-wrapper li a:hover,
+nav.theme-dark ul.links-wrapper li a:active { color: var(--sky-500) }
+nav.theme-dark.menu-sticky.menu-on-scroll,
+nav.theme-dark.menu-sticky.menu-on-scroll ul.links-wrapper.active { background-color: var(--sky-500) }
+nav.theme-dark.menu-sticky.menu-on-scroll,
+nav.theme-dark.menu-sticky.menu-on-scroll ul.links-wrapper.active { background-color: var(--sky-500) }
+nav.theme-dark.menu-sticky.menu-on-scroll,
+nav.theme-dark.menu-sticky.menu-on-scroll ul.links-wrapper.active { background-color: var(--sky-500) }
+nav.theme-dark.menu-sticky.menu-on-scroll,
+nav.theme-dark.menu-sticky.menu-on-scroll ul.links-wrapper.active { background-color: var(--sky-500) }
+nav.theme-dark.menu-sticky.menu-on-scroll ul.links-wrapper li a:link,
+nav.theme-dark.menu-sticky.menu-on-scroll ul.links-wrapper li a:visited { color: var(--white-000) }
+nav.theme-dark a#btn-cta:link,
+nav.theme-dark a#btn-cta:visited { color: var(--black-000) }
+nav.theme-dark a#btn-cta:link,
+nav.theme-dark a#btn-cta:visited { background-color: var(--white-000) }
+nav.theme-dark,
+nav.theme-dark ul.links-wrapper.active { background-color: var(--white-000) }
+nav.theme-dark,
+nav.theme-dark ul.links-wrapper.active { background-color: var(--sky-400) }
+nav.theme-dark ul.links-wrapper li a:link,
+nav.theme-dark ul.links-wrapper li a:visited { color: var(--white-000) }
+nav.theme-dark a#btn-cta:focus,
+nav.theme-dark a#btn-cta:hover,
+nav.theme-dark a#btn-cta:active { background-color: var(--slate-100) }
+
+
+
+
+.section-selector-1.theme-light .cols-shadows .col-3 { box-shadow: rgba(0, 0, 0, 0.2) 14px 14px 14px 0px}
+.section-selector-1 a.btn:link,
+.section-selector-1 a.btn:visited { background-color: var(--sky-400) }
+
+.section-selector-1 a.btn:focus,
+.section-selector-1 a.btn:hover,
+.section-selector-1 a.btn:active { background-color: var(--sky-500) }
+
+.section-selector-1 .col-3 { overflow: visible }
+.section-selector-1 .col-3 { overflow: hidden }
