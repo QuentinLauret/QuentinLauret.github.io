@@ -24,109 +24,97 @@
 </head>
 
 
+
 <body>
 
-    <!-- menu and 'hero block' header -->
     
 
-    
-
-    
-
-    <nav class="theme-dark"><div class="container-menu">
+    <nav class="menu-sticky theme-dark"><div class="container-menu">
         <a href="#" class="brand">
-            
+            <img src="assets/img/logo.png" alt="Sample website logo"></a>
         
         <div class="container-menu-links">
         
         <div class="nav-toggle" id="nav-toggle-btn"><div class="bar-1"></div><div class="bar-2"></div><div class="bar-3"></div></div>
         
         <ul class="links-wrapper">
-        <li><a href="project-hero/index.html">Hero Galleries</a></li>
-        <li><a href="project-multi-column/index.html">Multi-collumn</a></li>
-        <li><a href="fashion/index.html">Fashion</a></li>
-        <li><a href="smoothies/index.html">Smoothies</a></li>
-        <li><a href="crypto-wallet/index.html">Crypto Wallet</a></li>
-        <li><a class="btn btn-solid btn-soft" id="btn-cta" href="#projects"><span>View all</span> <i class="fa-solid fa-chevron-right"></i></a></li>
+        <li><a href="#">Home</a></li>
+        <li><a href="./portfolio/index.html">Portfolio</a></li>
+        <li><a href="./scripts/js/index.html">Javascript</a></li>
+        <li><a class="btn btn-solid" id="btn-cta" href="./contact/index.html"><span>Contact</span> <i class="fa-solid fa-chevron-right"></i></a></li>
         </ul>
         </div>
-        </div></nav><header class="theme-dark hero-bg text-center-desktop text-center-mobile desktop-min-height-80vh">
+        </div></nav>
+        <header class="theme-dark hero-bg text-center-desktop text-center-mobile desktop-min-height-90vh header-after-menu-sticky">
         
-                <div class="container-text">
+                <div class="container-text reveal-fade-in-header">
                     <h1 class="text-shadow heading-underline">L<span class="highlight">a</span>u<span class="highlight">r</span>e<span class="highlight">t</span> Q<span class="highlight">u</span>e<span class="highlight">n</span>t<span class="highlight">i</span>n</h1>
-                    <h2 class="text-shadow">Student in computer science</h2>
+                    <h2 class="text-shadow">Front-end Developer</h2>
                 </div>
         
                 
         
                 <div class="container-media">
-                    <video loop="" playsinline="" muted="" autoplay="" poster="https://lunevedy.com/ui/assets/img/1920x800-center.jpg" class="background-video" disablepictureinpicture="" preload="auto"><source src="assets/videos/background.mp4" type="video/mp4"></video></div>
+                    <img src="assets/img/background.jpg" alt="Lauret Quentin, Web Designer">
+                </div>
         
                 <div class="container-overlay"></div>
         
-                <div class="container-btn">
-                    <a href="#projects" class="btn btn-solid btn-soft"><span>View my projects</span></a>
+                <div class="container-btn reveal-fade-in-header">
+                    <a href="./portfolio/index.html" class="btn btn-solid"><span>View my projects</span><i class="fas fa-arrow-right"></i></a>
                 </div>
         
         </header>
         
         
-        
-        
-
-
+     
     <!-- main content with sections -->
     <main>
 
-        <!-- replace these empty sections with your own or delete them. -->
         
 
 	<!-- section starts here -->
 
-	<section class="theme-light section-selector-1" id = "projects">
+	<section class="theme-light section-selector-1 w-1356px">
 
 		<div class="col-1 text-center w-820px">
-			<h2>My projects</h2>
+			<h2>Recent projects</h2>
+			<h3>Below you can see some examples of my recent work. Check out my complete portfolio. Have a project you would like to discuss? Let's make something great together! </h3>
 		</div>
 
 		<!-- Begin three-column flexbox grid -->
-		<div class="flex-cols-3 cols-padding cols-borders-width-1 cols-shadows">
+		<div class="flex-cols-3">
 
 			<div class="col-3">
-				<figure class="">
-					<img src="assets/img/fashion.jpg" alt="Placeholder image">
-				</figure><h3>Snazzy Fashion</h3>	
-
-				
-				
-				
-				
-			<a href="fashion/index.html" class="btn btn-solid"><span>View the page</span><i class="fas fa-arrow-right"></i></a></div>
+				<figure class="photos-zoom photos-brightness" style="overflow: hidden;">
+					<a href="./smoothies/index.html"><img src="assets/img/smoothies.jpg" alt="Placeholder image"></a>
+				</figure>
+				<h3>Smooth Smoothies</h3>
+				<p>A multi-column, flexbox-based page layout and hero image with a tinted overlay.</p>
+				<a href="./smoothies/index.html" class="btn btn-solid"><span>View Project</span><i class="fas fa-arrow-right"></i></a>
+			</div>
 
 			<div class="col-3">
-				<figure class="">
-					<img src="assets/img/smoothies.jpg" alt="Placeholder image">
-				</figure><h3>Smooth Smooties</h3>	
-
-				
-				
-				
-				
-			<a href="smoothies/index.html" class="btn btn-solid"><span>View the page</span><i class="fas fa-arrow-right"></i></a></div>
+				<figure class="photos-zoom photos-brightness" style="overflow: hidden;">
+					<a href="./fashion/index.html"><img src="assets/img/fashion.jpg" alt="Placeholder image"></a>
+				</figure>
+				<h3>Snazzy Fashion</h3>
+				<p>A web page for a fashion retailer with a background video that plays in a continuous loop.</p>
+				<a href="./fashion/index.html" class="btn btn-solid"><span>View Project</span><i class="fas fa-arrow-right"></i></a>
+			</div>
 
 			<div class="col-3">
-				<figure class="">
-					<img src="assets/img/crypto.jpg" alt="Placeholder image">
-				</figure><h3>Snazzy Crypto Wallet</h3>	
-
-				
-				
-				
-				
-			<a href="crypto-wallet/index.html" class="btn btn-solid"><span>View the page</span><i class="fas fa-arrow-right"></i></a></div>
+				<figure class="photos-zoom photos-brightness" style="overflow: hidden;">
+					<a href="./project-hero/index.html"><img src="assets/img/hero-block.png" alt="Placeholder image"></a>
+				</figure>
+				<h3>Hero Block Gallery</h3>
+				<p>A gallery of hero block elements with split-screen layouts and duotone images.</p>
+				<a href="./project-hero/index.html" class="btn btn-solid"><span>View Project</span><i class="fas fa-arrow-right"></i></a>
+			</div>
 
 
 		</div>
+        
 		<!-- End three-column flexbox grid -->
 
 	</section>
@@ -134,50 +122,30 @@
 	<!-- section ends here -->
 
 
-    <section class="theme-light section-selector-1">
-
-
-		<!-- Begin three-column flexbox grid -->
-		<div class="flex-cols-3 cols-padding cols-borders-width-1 cols-shadows">
-
-			<div class="col-3">
-				<figure class="">
-					<img src="assets/img/multi-column.png" alt="Placeholder image">
-				</figure><h3>Multi-column gallery</h3>	
-
-				
-				
-				
-				
-			<a href="project-multi-column/index.html" class="btn btn-solid"><span>View the page</span><i class="fas fa-arrow-right"></i></a></div>
-
-			<div class="col-3">
-				<figure class="">
-					<img src="assets/img/hero-block.png" alt="Placeholder image">
-				</figure><h3>Hero block gallery</h3>	
-
-				
-				
-				
-				
-			<a href="project-hero/index.html" class="btn btn-solid"><span>View the page</span><i class="fas fa-arrow-right"></i></a></div>
-
-		
-
-
-		</div>
-		<!-- End three-column flexbox grid -->
-
-	</section>
-        <section></section>
-        <section></section>
-        <section></section>
-        <section></section>
 
     </main>
 
     <!-- footer -->
-    <footer></footer>
+    
+	<footer class="theme-dark text-center-desktop text-center-mobile">
+
+		<h2>Quentin Lauret</h2>
+
+		<h3>Excellence in digital creation</h3>
+
+		<ul class="footer-links">
+            <li><a href="#">Home</a></li>
+			<li><a href="./portfolio/index.html">Portfolio</a></li>
+			<li><a href="./contact/index.html">Contact</a></li>
+		</ul>
+
+		<ul class="footer-icons">
+			<li><a href="https://github.com/QuentinLauret/" target="_blank"><i class="fab fa-github-square"></i></a></li>
+		</ul>
+
+		<p class="privacy"><a href="#">Privacy &amp; Legal</a></p>
+
+	</footer>
 
     <script src="index_fichiers/lunevedy.js"></script>
 
